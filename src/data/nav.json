@@ -1,0 +1,1553 @@
+{"code": "00000000",
+  "message": "调用接口成功",
+  "data": [
+    {
+      "id": "59014699850076084cd9fe3a",
+      "deleted": false,
+      "name": "用户中心",
+      "parent": null,
+      "resource": null,
+      "sort": 20,
+      "state": 1,
+      "icon": "/images/icon/firstNav/gzt.png",
+      "remark": "",
+      "parentId": null,
+      "children": [
+        {
+          "id": "590146dd850076084cd9fe3b",
+          "deleted": false,
+          "name": "前端用户管理",
+          "parent": null,
+          "resource": null,
+          "sort": 10,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "59014699850076084cd9fe3a",
+          "children": [
+            {
+              "id": "590146fa850076084cd9fe3c",
+              "deleted": false,
+              "name": "用户信息管理",
+              "parent": null,
+              "resource": {
+                "id": "590147e6850076084cd9fe3f",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "front_user_list_view",
+                "name": "前端用户列表页",
+                "href": "do?v=frontuser.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "用户中心-前端用户-用户信息",
+                "resourceUrl": "../usermanger/userinfo-manger.html"
+              },
+              "sort": 10,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590146dd850076084cd9fe3b",
+              "children": []
+            },
+            {
+              "id": "59014714850076084cd9fe3d",
+              "deleted": false,
+              "name": "实名认证",
+              "parent": null,
+              "resource": {
+                "id": "590296049888cf144cd5d521",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "user_auth_list",
+                "name": "实名认证列表",
+                "href": "do?v=userAuth.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "用户中心-前端用户-实名认证",
+                "resourceUrl": "../usermanger/realname-auth.html"
+              },
+              "sort": 20,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590146dd850076084cd9fe3b",
+              "children": []
+            },
+            {
+              "id": "59014730850076084cd9fe3e",
+              "deleted": false,
+              "name": "企业认证",
+              "parent": null,
+              "resource": {
+                "id": "5901992a9888cf020049ed7c",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "enterprise",
+                "name": "企业管理页面",
+                "href": "do?v=enterprise.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "用户中心-前端用户-企业认证",
+                "resourceUrl": "http://192.168.11.240:38080/user-webapp/do?v=enterprise.list"
+              },
+              "sort": 30,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590146dd850076084cd9fe3b",
+              "children": []
+            },
+            {
+              "id": "5902ff449888cf08148cb923",
+              "deleted": false,
+              "name": "证、卡管理",
+              "parent": null,
+              "resource": {
+                "id": "5902faf29888cf08148cb922",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "cardList",
+                "name": "证卡管理列表",
+                "href": "/do?v=card.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "用户中心-前端用户-证卡管理",
+                "resourceUrl": "http://192.168.11.240:38080/user-webapp/do?v=card.list"
+              },
+              "sort": 50,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590146dd850076084cd9fe3b",
+              "children": []
+            },
+            {
+              "id": "5912df4da450ef2b9ad47251",
+              "deleted": false,
+              "name": "特权管理",
+              "parent": null,
+              "resource": {
+                "id": "5912dea9a450ef2b9ad4724f",
+                "deleted": false,
+                "application": {
+                  "id": "5912deeda450ef2b9ad47250",
+                  "deleted": false,
+                  "name": "个人服务-特权管理",
+                  "url": "http://127.0.0.1:8080/village-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "villageList",
+                "name": "特权管理列表",
+                "href": "do?v=village.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "用户中心-前端用户-特权管理",
+                "resourceUrl": "http://127.0.0.1:8080/village-webapp/do?v=village.list"
+              },
+              "sort": 60,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590146dd850076084cd9fe3b",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "59127132a450ef7fdde410c0",
+      "deleted": false,
+      "name": "个人服务",
+      "parent": null,
+      "resource": null,
+      "sort": 21,
+      "state": 1,
+      "icon": "/images/icon/firstNav/gzt.png",
+      "remark": "",
+      "parentId": null,
+      "children": [
+        {
+          "id": "59127177a450ef7fdde410c1",
+          "deleted": false,
+          "name": "咨询求助/举报投诉",
+          "parent": null,
+          "resource": null,
+          "sort": 22,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "59127132a450ef7fdde410c0",
+          "children": [
+            {
+              "id": "5912745ba450ef7fdde410c4",
+              "deleted": false,
+              "name": "举报投诉",
+              "parent": null,
+              "resource": {
+                "id": "59128707a450ef7fdde410e6",
+                "deleted": false,
+                "application": {
+                  "id": "5912724ba450ef7fdde410c2",
+                  "deleted": false,
+                  "name": "个人服务-咨询求助/举报投诉",
+                  "url": "http://127.0.0.1:8080/tf-zxqz-jbts-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "tf_jbtsList",
+                "name": "举报投诉",
+                "href": "do?v=tfZxqzJbts.list&category=2",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "个人服务-咨询求助/举报投诉",
+                "resourceUrl": "http://127.0.0.1:8080/tf-zxqz-jbts-webapp/do?v=tfZxqzJbts.list&category=2"
+              },
+              "sort": 25,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "59127177a450ef7fdde410c1",
+              "children": []
+            },
+            {
+              "id": "59127436a450ef7fdde410c3",
+              "deleted": false,
+              "name": "咨询求助",
+              "parent": null,
+              "resource": {
+                "id": "5912754ca450ef7fdde410c5",
+                "deleted": false,
+                "application": {
+                  "id": "5912724ba450ef7fdde410c2",
+                  "deleted": false,
+                  "name": "个人服务-咨询求助/举报投诉",
+                  "url": "http://127.0.0.1:8080/tf-zxqz-jbts-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "tf_zxqzList",
+                "name": "咨询求助",
+                "href": "do?v=tfZxqzJbts.list&category=1",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "个人服务-咨询求助/举报投诉",
+                "resourceUrl": "http://127.0.0.1:8080/tf-zxqz-jbts-webapp/do?v=tfZxqzJbts.list&category=1"
+              },
+              "sort": 25,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "59127177a450ef7fdde410c1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "59151518a450ef2b9ad47277",
+          "deleted": false,
+          "name": "我的车辆",
+          "parent": null,
+          "resource": null,
+          "sort": 26,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "59127132a450ef7fdde410c0",
+          "children": [
+            {
+              "id": "59151811a450ef2b9ad47278",
+              "deleted": false,
+              "name": "车辆管理",
+              "parent": null,
+              "resource": {
+                "id": "5915118ca450ef2b9ad47272",
+                "deleted": false,
+                "application": {
+                  "id": "59151114a450ef2b9ad47271",
+                  "deleted": false,
+                  "name": "个人服务-我的车辆",
+                  "url": "http://127.0.0.1:8080/tf-car-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "tf_carList",
+                "name": "我的车辆",
+                "href": "do?v=tfCar.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "个人服务-我的车辆",
+                "resourceUrl": "http://127.0.0.1:8080/tf-car-webapp/do?v=tfCar.list"
+              },
+              "sort": 27,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "59151518a450ef2b9ad47277",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "590d1fe783056f10106dbff3",
+      "deleted": false,
+      "name": "企业服务",
+      "parent": null,
+      "resource": null,
+      "sort": 21,
+      "state": 1,
+      "icon": "/images/icon/firstNav/gzt.png",
+      "remark": "",
+      "parentId": null,
+      "children": [
+        {
+          "id": "590d2e66ef2e74132033f8f7",
+          "deleted": false,
+          "name": "二手电脑企业",
+          "parent": null,
+          "resource": null,
+          "sort": 1,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d1ffe83056f10106dbff4",
+              "deleted": false,
+              "name": "二手电脑",
+              "parent": null,
+              "resource": {
+                "id": "590d1f9e83056f10106dbff2",
+                "deleted": false,
+                "application": {
+                  "id": "590d1f2483056f10106dbff1",
+                  "deleted": false,
+                  "name": "企业服务-二手电脑",
+                  "url": "http://127.0.0.1:8080/computer-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "usedComputerList",
+                "name": "企业服务-二手电脑-列表界面",
+                "href": "do?v=usedComputer.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-二手电脑",
+                "resourceUrl": "http://127.0.0.1:8080/computer-webapp/do?v=usedComputer.list"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "590d2e66ef2e74132033f8f7",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "590d2e80ef2e74132033f8f8",
+          "deleted": false,
+          "name": "加油站企业",
+          "parent": null,
+          "resource": null,
+          "sort": 2,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d2161ef2e740e48c4590e",
+              "deleted": false,
+              "name": "加油站",
+              "parent": null,
+              "resource": {
+                "id": "590d1dc4ef2e740e48c4590d",
+                "deleted": false,
+                "application": {
+                  "id": "590d1b3def2e740e48c4590c",
+                  "deleted": false,
+                  "name": "企业服务-加油站",
+                  "url": "http://127.0.0.1:8080/gasStation-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "gas_station_list",
+                "name": "企业服务-加油站列表界面",
+                "href": "do?v=gasStation.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-加油站",
+                "resourceUrl": "http://127.0.0.1:8080/gasStation-webapp/do?v=gasStation.list"
+              },
+              "sort": 2,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "590d2e80ef2e74132033f8f8",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "590d3973b38aa80cf4afcc05",
+          "deleted": false,
+          "name": "二手手机企业",
+          "parent": null,
+          "resource": null,
+          "sort": 3,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d399db38aa80cf4afcc06",
+              "deleted": false,
+              "name": "二手手机",
+              "parent": null,
+              "resource": {
+                "id": "590d3631b38aa80cf4afcc02",
+                "deleted": false,
+                "application": {
+                  "id": "590d34d0b38aa80cf4afcc01",
+                  "deleted": false,
+                  "name": "企业服务-二手手机",
+                  "url": "http://127.0.0.1:8080/mobile-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "mobile.list",
+                "name": "企业服务-二手手机列表",
+                "href": "do?v=mobile.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-二手手机",
+                "resourceUrl": "http://127.0.0.1:8080/mobile-webapp/do?v=mobile.list"
+              },
+              "sort": 3,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "590d3973b38aa80cf4afcc05",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "590d85733d7c0811b819bd3f",
+          "deleted": false,
+          "name": "开锁企业",
+          "parent": null,
+          "resource": null,
+          "sort": 4,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d85943d7c0811b819bd40",
+              "deleted": false,
+              "name": "开锁",
+              "parent": null,
+              "resource": {
+                "id": "590d86383d7c0811b819bd42",
+                "deleted": false,
+                "application": {
+                  "id": "590d83963d7c0811b819bd3e",
+                  "deleted": false,
+                  "name": "企业服务-开锁公司",
+                  "url": "http://127.0.0.1:8080/unlock-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "unlock_list",
+                "name": "企业服务-开锁列表界面",
+                "href": "do?v=unlock.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-开锁",
+                "resourceUrl": "http://127.0.0.1:8080/unlock-webapp/do?v=unlock.list"
+              },
+              "sort": 4,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "590d85733d7c0811b819bd3f",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "590d8622af704f105c6bfd72",
+          "deleted": false,
+          "name": "日租客企业",
+          "parent": null,
+          "resource": null,
+          "sort": 5,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d85a3af704f105c6bfd71",
+              "deleted": false,
+              "name": "日租客",
+              "parent": null,
+              "resource": {
+                "id": "590d8373af704f0b288d0147",
+                "deleted": false,
+                "application": {
+                  "id": "590d82d5af704f0b288d0146",
+                  "deleted": false,
+                  "name": "企业服务—日租客",
+                  "url": "http://127.0.0.1:8080/hotelCheck-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "hotelCheck_list",
+                "name": "日租客界面",
+                "href": "do?v=hotelCheck.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务—日租客",
+                "resourceUrl": "http://127.0.0.1:8080/hotelCheck-webapp/do?v=hotelCheck.list"
+              },
+              "sort": 5,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "590d8622af704f105c6bfd72",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5912639aa450ef7fdde410ba",
+          "deleted": false,
+          "name": "企业用工企业",
+          "parent": null,
+          "resource": null,
+          "sort": 6,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59126581a450ef7fdde410bf",
+              "deleted": false,
+              "name": "企业用工",
+              "parent": null,
+              "resource": {
+                "id": "59126456a450ef7fdde410bb",
+                "deleted": false,
+                "application": {
+                  "id": "59126365a450ef7fdde410b9",
+                  "deleted": false,
+                  "name": "企业服务-企业用工",
+                  "url": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "enterpriseEmployee_list",
+                "name": "企业用工-列表",
+                "href": "do?v=enterpriseEmployee.list&type=TH006",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业用工-企业用工",
+                "resourceUrl": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/do?v=enterpriseEmployee.list&type=TH006"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "5912639aa450ef7fdde410ba",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "59127d6da450ef7fdde410e0",
+          "deleted": false,
+          "name": "企业服务-沿街商铺",
+          "parent": null,
+          "resource": null,
+          "sort": 7,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59127e1ba450ef7fdde410e2",
+              "deleted": false,
+              "name": "沿街商铺",
+              "parent": null,
+              "resource": {
+                "id": "59127deba450ef7fdde410e1",
+                "deleted": false,
+                "application": {
+                  "id": "59126365a450ef7fdde410b9",
+                  "deleted": false,
+                  "name": "企业服务-企业用工",
+                  "url": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "YJSP_list",
+                "name": "沿街商铺列表页面",
+                "href": "do?v=enterpriseEmployee.list&type=YJSP",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-沿街商铺",
+                "resourceUrl": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/do?v=enterpriseEmployee.list&type=YJSP"
+              },
+              "sort": 6,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "59127d6da450ef7fdde410e0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5912afeea450ef2b9ad47249",
+          "deleted": false,
+          "name": "废旧物品企业",
+          "parent": null,
+          "resource": null,
+          "sort": 8,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "5912b44ca450ef2b9ad4724a",
+              "deleted": false,
+              "name": "废旧物品",
+              "parent": null,
+              "resource": {
+                "id": "5912adffa450ef2b9ad47245",
+                "deleted": false,
+                "application": {
+                  "id": "5912ac06a450ef2b9ad47244",
+                  "deleted": false,
+                  "name": "企业服务-废旧物品",
+                  "url": "http://127.0.0.1:8080/goods-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "goods_list",
+                "name": "废旧物品界面",
+                "href": "do?v=goods.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-废旧物品",
+                "resourceUrl": "http://127.0.0.1:8080/goods-webapp/do?v=goods.list"
+              },
+              "sort": 8,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "5912afeea450ef2b9ad47249",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "59151006a450ef2b9ad4726e",
+          "deleted": false,
+          "name": "房屋中介企业",
+          "parent": null,
+          "resource": null,
+          "sort": 9,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59151042a450ef2b9ad4726f",
+              "deleted": false,
+              "name": "房屋中介界面",
+              "parent": null,
+              "resource": {
+                "id": "591510e1a450ef2b9ad47270",
+                "deleted": false,
+                "application": {
+                  "id": "59150fbba450ef2b9ad4726d",
+                  "deleted": false,
+                  "name": "企业服务-房屋中介",
+                  "url": "http://127.0.0.1:8080/agency-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "agency_list",
+                "name": "房屋中介界面",
+                "href": "do?v=agency.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-房屋中介",
+                "resourceUrl": "http://127.0.0.1:8080/agency-webapp/do?v=agency.list"
+              },
+              "sort": 9,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "59151006a450ef2b9ad4726e",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5912834fa450ef7fdde410e4",
+          "deleted": false,
+          "name": "在建工地企业",
+          "parent": null,
+          "resource": null,
+          "sort": 10,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59128420a450ef7fdde410e5",
+              "deleted": false,
+              "name": "在建工地",
+              "parent": null,
+              "resource": {
+                "id": "59128318a450ef7fdde410e3",
+                "deleted": false,
+                "application": {
+                  "id": "59126365a450ef7fdde410b9",
+                  "deleted": false,
+                  "name": "企业服务-企业用工",
+                  "url": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "BUILDING_list",
+                "name": "在建工地页面列表",
+                "href": "do?v=enterpriseEmployee.list&type=BUILDING",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业用工-在建工地",
+                "resourceUrl": "http://127.0.0.1:8080/EnterpriseEmployee-webapp/do?v=enterpriseEmployee.list&type=BUILDING"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "5912834fa450ef7fdde410e4",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "590d5f8177301c0bac9df2f5",
+          "deleted": false,
+          "name": "二手车企业",
+          "parent": null,
+          "resource": null,
+          "sort": 11,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "590d62e677301c0bac9df2f8",
+              "deleted": false,
+              "name": "二手车",
+              "parent": null,
+              "resource": null,
+              "sort": 13,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "590d5f8177301c0bac9df2f5",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "591163eaa450ef7fdde4109c",
+          "deleted": false,
+          "name": "典当业/拍卖业",
+          "parent": null,
+          "resource": null,
+          "sort": 12,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59141173a450ef2b9ad47262",
+              "deleted": false,
+              "name": "拍卖业",
+              "parent": null,
+              "resource": {
+                "id": "591410d4a450ef2b9ad47261",
+                "deleted": false,
+                "application": {
+                  "id": "5911628ea450ef7fdde4109b",
+                  "deleted": false,
+                  "name": "企业服务-典当业",
+                  "url": "http://127.0.0.1:8080/th-impawn-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "thImpawnPmList",
+                "name": "企业服务拍卖业",
+                "href": "do?v=thImpawn.list&category=2",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-典当业",
+                "resourceUrl": "http://127.0.0.1:8080/th-impawn-webapp/do?v=thImpawn.list&category=2"
+              },
+              "sort": 25,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "591163eaa450ef7fdde4109c",
+              "children": []
+            },
+            {
+              "id": "5911687da450ef7fdde4109f",
+              "deleted": false,
+              "name": "典当业",
+              "parent": null,
+              "resource": {
+                "id": "5911651ea450ef7fdde4109d",
+                "deleted": false,
+                "application": {
+                  "id": "5911628ea450ef7fdde4109b",
+                  "deleted": false,
+                  "name": "企业服务-典当业",
+                  "url": "http://127.0.0.1:8080/th-impawn-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "thImpawnDdList",
+                "name": "企业服务典当业",
+                "href": "do?v=thImpawn.list&category=1",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-典当业",
+                "resourceUrl": "http://127.0.0.1:8080/th-impawn-webapp/do?v=thImpawn.list&category=1"
+              },
+              "sort": 123,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "591163eaa450ef7fdde4109c",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5911b863a450ef7fdde410b5",
+          "deleted": false,
+          "name": "寄卖业/寄递业",
+          "parent": null,
+          "resource": null,
+          "sort": 13,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "5911b913a450ef7fdde410b7",
+              "deleted": false,
+              "name": "寄卖业",
+              "parent": null,
+              "resource": {
+                "id": "5911b628a450ef7fdde410ad",
+                "deleted": false,
+                "application": {
+                  "id": "5911b5a7a450ef7fdde410ac",
+                  "deleted": false,
+                  "name": "企业服务-寄递寄卖",
+                  "url": "http://127.0.0.1:8080/post-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "postListPage",
+                "name": "寄卖列表界面",
+                "href": "do?v=post.list&category=TH013",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-寄递寄卖",
+                "resourceUrl": "http://127.0.0.1:8080/post-webapp/do?v=post.list&category=TH013"
+              },
+              "sort": 0,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "5911b863a450ef7fdde410b5",
+              "children": []
+            },
+            {
+              "id": "5911b92ea450ef7fdde410b8",
+              "deleted": false,
+              "name": "寄递业",
+              "parent": null,
+              "resource": {
+                "id": "5911b8d9a450ef7fdde410b6",
+                "deleted": false,
+                "application": {
+                  "id": "5911b5a7a450ef7fdde410ac",
+                  "deleted": false,
+                  "name": "企业服务-寄递寄卖",
+                  "url": "http://127.0.0.1:8080/post-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "postlistTH013",
+                "name": "寄递列表界面",
+                "href": "do?v=post.list&category=TH024",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-寄递寄卖",
+                "resourceUrl": "http://127.0.0.1:8080/post-webapp/do?v=post.list&category=TH024"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "5911b863a450ef7fdde410b5",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5913bcfba450ef2b9ad47257",
+          "deleted": false,
+          "name": "涉爆企业",
+          "parent": null,
+          "resource": null,
+          "sort": 14,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "5913bd1fa450ef2b9ad47258",
+              "deleted": false,
+              "name": "爆破作业项目许可申请",
+              "parent": null,
+              "resource": {
+                "id": "5913bbc2a450ef2b9ad47255",
+                "deleted": false,
+                "application": {
+                  "id": "5913bb01a450ef2b9ad47254",
+                  "deleted": false,
+                  "name": "企业服务-涉爆",
+                  "url": "http://127.0.0.1:8080/explosion-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "ExploXmxkList",
+                "name": "爆破作业列表界面",
+                "href": "do?v=exploXmxk.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-涉爆",
+                "resourceUrl": "http://127.0.0.1:8080/explosion-webapp/do?v=exploXmxk.list"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "5913bcfba450ef2b9ad47257",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "591437e8a450ef2b9ad4726b",
+          "deleted": false,
+          "name": "娱乐场所管理",
+          "parent": null,
+          "resource": null,
+          "sort": 15,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "5914381fa450ef2b9ad4726c",
+              "deleted": false,
+              "name": "娱乐场所",
+              "parent": null,
+              "resource": {
+                "id": "591437b2a450ef2b9ad4726a",
+                "deleted": false,
+                "application": {
+                  "id": "5914372aa450ef2b9ad47269",
+                  "deleted": false,
+                  "name": "企业服务-娱乐场所管理",
+                  "url": "http://127.0.0.1:8080/place-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "getPlaceEntListPage",
+                "name": "获取娱乐场所管理列表界面",
+                "href": "do?v=company.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-娱乐场所管理",
+                "resourceUrl": "http://127.0.0.1:8080/place-webapp/do?v=company.list"
+              },
+              "sort": 0,
+              "state": 1,
+              "icon": "/images/icon/secondNav/anquan.png",
+              "remark": "",
+              "parentId": "591437e8a450ef2b9ad4726b",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "59117804a450ef7fdde410a9",
+          "deleted": false,
+          "name": "金银首饰企业",
+          "parent": null,
+          "resource": null,
+          "sort": 25,
+          "state": 1,
+          "icon": "/images/icon/secondNav/anquan.png",
+          "remark": "",
+          "parentId": "590d1fe783056f10106dbff3",
+          "children": [
+            {
+              "id": "59117833a450ef7fdde410aa",
+              "deleted": false,
+              "name": "金银首饰",
+              "parent": null,
+              "resource": {
+                "id": "59117797a450ef7fdde410a7",
+                "deleted": false,
+                "application": {
+                  "id": "59117709a450ef7fdde410a6",
+                  "deleted": false,
+                  "name": "企业服务-金银首饰",
+                  "url": "http://127.0.0.1:8080/goldJewelry-webapp",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "goldJewelry_list",
+                "name": "企业服务-金银首饰列表界面",
+                "href": "do?v=goldJewelry.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "企业服务-金银首饰",
+                "resourceUrl": "http://127.0.0.1:8080/goldJewelry-webapp/do?v=goldJewelry.list"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "59117804a450ef7fdde410a9",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58c782c385007614e03d9196",
+      "deleted": false,
+      "name": "系统设置",
+      "parent": null,
+      "resource": null,
+      "sort": 100,
+      "state": 1,
+      "icon": "/images/icon/firstNav/xtgl.png",
+      "remark": "",
+      "parentId": null,
+      "children": [
+        {
+          "id": "58c7830d85007614e03d9197",
+          "deleted": false,
+          "name": "基础配置",
+          "parent": null,
+          "resource": null,
+          "sort": 20,
+          "state": 1,
+          "icon": "/images/icon/secondNav/jichupeizhi.png",
+          "remark": "",
+          "parentId": "58c782c385007614e03d9196",
+          "children": [
+            {
+              "id": "58c7b22e85007610e8b2f3ba",
+              "deleted": false,
+              "name": "区域管理",
+              "parent": null,
+              "resource": {
+                "id": "58c7a792850076035422ca6e",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "area_list_view",
+                "name": "区域列表页",
+                "href": "do?v=area.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-区域",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=area.list"
+              },
+              "sort": 5,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "58ca396085007613048ba9f6",
+              "deleted": false,
+              "name": "字典管理",
+              "parent": null,
+              "resource": {
+                "id": "58ca393585007613048ba9f5",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "dic_list_view",
+                "name": "字典列表页",
+                "href": "do?v=dictionary.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-字典",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=dictionary.list"
+              },
+              "sort": 7,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "58c7836185007614e03d9198",
+              "deleted": false,
+              "name": "菜单管理",
+              "parent": null,
+              "resource": {
+                "id": "58c787ac85007614e03d91a1",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "menu_list_view",
+                "name": "菜单列表页",
+                "href": "do?v=menu.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-菜单",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=menu.list"
+              },
+              "sort": 10,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "59082bc585007602108b75eb",
+              "deleted": false,
+              "name": "App菜单管理",
+              "parent": null,
+              "resource": {
+                "id": "59082c7085007602108b75ec",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "app_menu_list_view",
+                "name": "app菜单列表页",
+                "href": "do?v=appMenu.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-app菜单",
+                "resourceUrl": "http://192.168.11.240:38080/user-webapp/do?v=appMenu.list"
+              },
+              "sort": 20,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "58c7838085007614e03d9199",
+              "deleted": false,
+              "name": "子系统管理",
+              "parent": null,
+              "resource": {
+                "id": "58c7849085007614e03d919d",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "app_list_view",
+                "name": "子系统列表页",
+                "href": "do?v=applications.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-子系统",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=applications.list"
+              },
+              "sort": 20,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "591012f4a450ef6c56091b29",
+              "deleted": false,
+              "name": "App版本管理",
+              "parent": null,
+              "resource": {
+                "id": "5910122ea450ef6c56091b27",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "app_version_list_view",
+                "name": "app版本列表页",
+                "href": "do?v=appVersion.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-app版本",
+                "resourceUrl": "http://192.168.11.240:38080/user-webapp/do?v=appVersion.list"
+              },
+              "sort": 21,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "590c1b978500762f4c914550",
+              "deleted": false,
+              "name": "积分规则管理",
+              "parent": null,
+              "resource": {
+                "id": "590c1b358500762f4c91454e",
+                "deleted": false,
+                "application": {
+                  "id": "59014618850076084cd9fe39",
+                  "deleted": false,
+                  "name": "阳光警务-用户中心",
+                  "url": "http://192.168.11.240:38080/user-webapp/",
+                  "state": 1,
+                  "remark": "用户中心以及基础操作"
+                },
+                "code": "score_rule_list_view",
+                "name": "积分规则列表页",
+                "href": "do?v=scoreRule.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-积分规则",
+                "resourceUrl": "http://192.168.11.240:38080/user-webapp/do?v=scoreRule.list"
+              },
+              "sort": 30,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "58c7839985007614e03d919a",
+              "deleted": false,
+              "name": "资源管理",
+              "parent": null,
+              "resource": {
+                "id": "58c785dd85007614e03d91a0",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "res_list_view",
+                "name": "资源列表页",
+                "href": "do?v=resources.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-资源",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=resources.list"
+              },
+              "sort": 30,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            },
+            {
+              "id": "58c783ba85007614e03d919b",
+              "deleted": false,
+              "name": "角色管理",
+              "parent": null,
+              "resource": {
+                "id": "58c787fe85007614e03d91a2",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "role_list_view",
+                "name": "角色列表页",
+                "href": "do?v=role.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-基础配置-角色",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=role.list"
+              },
+              "sort": 40,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58c7830d85007614e03d9197",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "58ca772b85007611142c44ed",
+          "deleted": false,
+          "name": "组织机构",
+          "parent": null,
+          "resource": null,
+          "sort": 20,
+          "state": 1,
+          "icon": "/images/icon/secondNav/jichupeizhi.png",
+          "remark": "",
+          "parentId": "58c782c385007614e03d9196",
+          "children": [
+            {
+              "id": "58c7a894850076035422ca73",
+              "deleted": false,
+              "name": "单位管理",
+              "parent": null,
+              "resource": {
+                "id": "58c7a7dd850076035422ca6f",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "org_list_view",
+                "name": "单位列表页",
+                "href": "do?v=organization.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-组织机构-单位",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=organization.list"
+              },
+              "sort": 1,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58ca772b85007611142c44ed",
+              "children": []
+            },
+            {
+              "id": "58c7a922850076035422ca76",
+              "deleted": false,
+              "name": "职务管理",
+              "parent": null,
+              "resource": {
+                "id": "58c7a867850076035422ca72",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "title_list_view",
+                "name": "职务列表页",
+                "href": "do?v=title.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-组织机构-职务",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=title.list"
+              },
+              "sort": 4,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58ca772b85007611142c44ed",
+              "children": []
+            },
+            {
+              "id": "58c783d385007614e03d919c",
+              "deleted": false,
+              "name": "用户管理",
+              "parent": null,
+              "resource": {
+                "id": "58c788dd85007614e03d91a3",
+                "deleted": false,
+                "application": {
+                  "id": "58c7818c85007614e03d9194",
+                  "deleted": false,
+                  "name": "基础应用页面",
+                  "url": "http://192.168.11.240:38080/basic-webapp/",
+                  "state": 1,
+                  "remark": ""
+                },
+                "code": "user_list_view",
+                "name": "用户列表页",
+                "href": "do?v=account.list",
+                "state": 1,
+                "ispermission": 1,
+                "remark": "",
+                "module": "系统管理-组织机构-用户",
+                "resourceUrl": "http://192.168.11.240:38080/basic-webapp/do?v=account.list"
+              },
+              "sort": 50,
+              "state": 1,
+              "icon": "",
+              "remark": "",
+              "parentId": "58ca772b85007611142c44ed",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "successful": true
+}

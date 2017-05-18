@@ -1,0 +1,13 @@
+<div class="sys-dialog" ng-show="dialogData.isShow">
+    <div class="mask"></div>
+    <div class="box">
+        <div class="dialog-wrap">
+            <i class="close" ng-click="close()"></i>
+            <div class="header">提示信息</div>
+            <div class="content" ng-include="dialogData.template.url"></div>
+            <div class="button-box">
+                <a href="javascript:;" class="sys-btn sys-btn-export" ng-repeat="item in dialogData.buttons.list" ng-click="clickBtn($index,item)">{{item[key]}}</a>
+            </div>
+        </div>
+    </div>
+</div>

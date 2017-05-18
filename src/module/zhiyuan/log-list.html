@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="edge=ie">
+	<title>第三方接口调用日志列表</title>
+	<link rel="stylesheet" href="../comm/css/hb.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="myCtrl">
+<dialog dialog-data="data"></dialog>
+<div class="container">
+    <div class="wrap bg-white">
+        <div class="row">
+            <div class="block-3 sys-input">
+                <label>接口类型:</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-input">
+                <label>业务标识:</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-6 search-box-btn">
+                <a href="javascript:;" class="sys-btn sys-btn-del">删除</a>
+                <a href="javascript:;" class="sys-btn sys-btn-search">查询</a>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <table class="sys-table-list">
+                <tr>
+                    <th width="5%">
+                        <input type="checkbox" name="checkAll">
+                    </th>
+                    <th width="8%">接口类型</th>
+                    <th width="10%">接口地址</th>
+                    <th width="10%">接口入参</th>
+                    <th width="15%">接口描述</th>
+                    <th width="8%">业务标识</th>
+                    <th width="10%">模块名称</th>
+                    <th width="8%">状态</th>
+                    <th width="10%">调用人</th>
+                    <th width="10%">调用时间</th>
+                    <th>操作</th>
+                </tr>
+                <tr ng-repeat="tr in list">
+                    <td class="center">
+                        <input type="checkbox">
+                    </td>
+                    <td title="{{tr.type}}" ng-bind="tr.type"></td>
+                    <td ng-bind="url ? url : '-'"></td>
+                    <td ng-bind="tr.param" title="{{tr.param}}"></td>
+                    <td>-</td>
+                    <td ng-bind="tr.busId"></td>
+                    <td ng-bind="tr.module"></td>
+                    <td>
+                    	<span class="sys-icon sys-icon-center sys-icon-success"></span>
+                    </td>
+                    <td ng-bind="tr.system"></td>
+                    <td ng-bind="tr.invokeTime"></td>
+                    <td>
+                    	<a title="查看详情" href="javascript:;" class="sys-icon sys-icon-center sys-icon-dept" ng-click="open()"></a>
+                    </td>
+                </tr>
+            </table>
+            <paination conf="paginationConf" flip-page="flip(currentPage)"></paination>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../lib/jquery.min.js"></script>
+<script src="../../util/util.js"></script>
+<script src="../../lib/angular.min.js"></script>
+<script src="../app.js"></script>
+<script src="../../directive/pagination/pagination.js"></script>
+<script src="../../directive/dialog/dialog.js"></script>
+<script src="url.js"></script>
+<script src="log-list.js"></script>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>特权管理</title>
+    <link rel="stylesheet" href="../comm/css/hb.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrap bg-white">
+        <div class="row">
+            <div class="block-3 sys-select">
+                <label>真实姓名：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-input">
+                <label>证件号：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-select">
+                <label>审核状态：</label>
+                <div>
+                    <select>
+                        <option value="">---请选择----</option>
+                        <option value="">停用</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block-3 sys-select">
+                <label>特权类型：</label>
+                <div>
+                    <select>
+                        <option value="">---请选择----</option>
+                        <option value="">认证</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-6 sys-datetime">
+                <label>提交时间：</label>
+                <div>
+                    <input type="text" class="startTime">
+                    <input type="text" class="endTime">
+                </div>
+            </div>
+            <div class="block-6 search">
+                <a href="javascript:;" class="sys-btn sys-btn-export">导出</a>
+                <a href="javascript:;" class="sys-btn sys-btn-search">查询</a>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <table class="sys-table">
+                <tr class="noHover">
+                    <th width="10%">真实姓名</th>
+                    <th width="10%">身份证号码</th>
+                    <th width="10%">联系方式</th>
+                    <th width="20%">身份证地址</th>
+                    <th width="8%">特权类型</th>
+                    <th width="10%">实名认证状态</th>
+                    <th width="10%">特权认证状态</th>
+                    <th width="10%">提交时间</th>
+                    <th>操作</th>
+                </tr>
+                <tr class="noHover">
+                    <td>白发超过</td>
+                    <td>社保企业</td>
+                    <td>1</td>
+                    <td>刘世鹏</td>
+                    <td>121</td>
+                    <td>2016/02/12</td>
+                    <td>启用</td>
+                    <td>启用</td>
+                    <td>操作</td>
+                </tr>
+            </table>
+            <div class="sys-page">
+                <a href="javascript:;" class="pre" title="上一页"></a>
+                <a href="javascript:;" class="active">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a href="javascript:;">5</a>
+                <a href="javascript:;">…</a>
+                <a href="javascript:;" class="next" title="下一页"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

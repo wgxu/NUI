@@ -1,0 +1,78 @@
+@import "../style_config";
+/*重置浏览器*/
+html,body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, p, input{
+  margin:0;
+  padding: 0;
+}
+ul, ol, input, button{
+  padding:0;
+}
+ul, ol{
+  list-style:none;
+}
+img{
+  border:none;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+}
+a{
+  text-decoration:none;
+}
+a:focus{outline:none;}
+table{
+  table-layout: fixed;
+  border-spacing:0;
+  border-collapse:collapse;
+}
+input, textarea{
+  outline:none;
+  border:1px solid #E5E5E5;
+  resize: none;
+}
+textarea{
+  resize:none;
+}
+b, strong{
+  font-weight:normal;
+}
+object, img{
+  border:none;
+  display:inline-block; /* 狐下无路径会设置成 inline */
+}
+em, i{
+  font-style:normal; /* 默认斜体 */
+}
+
+/*全局样式*/
+.clearfix {
+  display: block;
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.SysEll {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.SysHide {
+  display: none;
+}
+html,body {
+  height: 100%;
+  font-size: $sysFontSizeCont1;
+  line-height: $fontLineHeiht;
+  font-family: $sysFontFamily;
+  background-color: #fff;
+}
+/*加载动画*/
+iframe {
+  background: url(../images/loading-first.gif) no-repeat center center;
+}
+

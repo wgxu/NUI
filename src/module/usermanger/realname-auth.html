@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>实名认证</title>
+    <link rel="stylesheet" href="../comm/css/hb.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrap bg-white">
+        <div class="row">
+            <div class="block-3 sys-select">
+                <label>公安局及派出所：</label>
+                <div>
+                    <select>
+                        <option value="">---请选择----</option>
+                        <option value="">停用</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block-3 sys-input">
+                <label>真实姓名：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-input">
+                <label>证件号：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-select">
+                <label>审核状态：</label>
+                <div>
+                    <select>
+                        <option value="">---请选择----</option>
+                        <option value="">认证</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-6 sys-datetime">
+                <label>提交时间：</label>
+                <div>
+                    <input type="text" class="startTime">
+                    <input type="text" class="endTime">
+                </div>
+            </div>
+            <div class="block-6 search">
+                <a href="javascript:;" class="sys-btn sys-btn-export">导出</a>
+                <a href="javascript:;" class="sys-btn sys-btn-search">查询</a>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <table class="sys-table">
+                <tr class="noHover">
+                    <th width="10%">真实姓名</th>
+                    <th width="10%">身份证号</th>
+                    <th width="21%">所在区域</th>
+                    <th width="8%">状态</th>
+                    <th width="10%">提交时间</th>
+                    <th width="10%">审核时间</th>
+                    <th width="10%">审核意见</th>
+                    <th>操作</th>
+                </tr>
+                <tr class="noHover">
+                    <td>02147</td>
+                    <td>15155518162</td>
+                    <td>小徐</td>
+                    <td>未认证</td>
+                    <td>121</td>
+                    <td>2016/02/12</td>
+                    <td>启用</td>
+                    <td>操作</td>
+                </tr>
+            </table>
+            <div class="sys-page">
+                <a href="javascript:;" class="pre" title="上一页"></a>
+                <a href="javascript:;" class="active">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a href="javascript:;">5</a>
+                <a href="javascript:;">…</a>
+                <a href="javascript:;" class="next" title="下一页"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

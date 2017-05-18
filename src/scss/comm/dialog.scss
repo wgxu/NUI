@@ -1,0 +1,76 @@
+/**
+  dialog弹出框样式
+ */
+$bgColor: #5d6acb;
+
+.sys-dialog {
+  & {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
+  .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    background-color: rgb(0,0,0);
+    z-index: 9;
+  }
+  .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+  }
+  .dialog-wrap {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    width: 800px;
+    height: 600px;
+    color: #000;
+    background-color: #fff;
+  }
+  .header {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #5d6acb;
+    color: #fff;
+  }
+  .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 33px;
+    height: 33px;
+    background: url(../images/close_icon.png) no-repeat;
+    cursor: pointer;
+  }
+  .content {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    bottom: 54px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .button-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 190px;
+  }
+  .button-box a:first-child {
+    margin-right: 20px;
+  }
+}

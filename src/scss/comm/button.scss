@@ -1,0 +1,154 @@
+/**
+ * 系统button样式
+ */
+//按钮样式
+.sys-btn {
+  float: left;
+  margin: 0 2px;
+  width: 79px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+}
+//查询
+.sys-btn-search {
+  & {
+    background-color: #5d6acb;
+  }
+  &:hover {
+    background-color: #3243bd;
+  }
+}
+//停用
+.sys-btn-stop {
+  & {
+    background-color: #f9ab72;
+  }
+  &:hover {
+    background-color: #f9ab72;
+  }
+}
+//启用
+.sys-btn-enable {
+  & {
+    background-color: #65cc89;
+  }
+  &:hover {
+    background-color: #65cc89;
+  }
+}
+//导出
+.sys-btn-export {
+  & {
+    background-color: #9488ef;
+  }
+  &:hover {
+    background-color: #705dff;
+  }
+}
+//删除
+.sys-btn-del {
+  & {
+    background-color: #f07575;
+  }
+  &:hover {
+    background-color: #f85050;
+  }
+}
+
+//icon图标按钮
+.sys-icon {
+  & {
+    float: left;
+    margin: 0 4px;
+    width: 25px;
+    height: 25px;
+  }
+}
+//图标居中
+.sys-icon-center {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+//图标居右
+.sys-icon-right {
+  float: right;
+}
+//成功图标
+.sys-icon-success {
+  & {
+    background: url("../images/success.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//失败图标
+.sys-icon-fail {
+  & {
+    background: url("../images/fail.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//启用图标
+.sys-icon-enable {
+  & {
+    background: url("../images/enable.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//禁用图标
+.sys-icon-disEnable {
+  & {
+    background: url("../images/disenable.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+
+//查看详情图标
+.sys-icon-dept {
+  & {
+    background: url("../images/dept.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+  &:hover {
+    background: url("../images/dept-hover.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//删除图标
+.sys-icon-delete {
+  & {
+    background: url("../images/delete.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+  &:hover {
+    background: url("../images/delete-hover.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//编辑图标
+.sys-icon-edit {
+  & {
+    background: url("../images/edit.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+  &:hover {
+    background: url("../images/edit-hover.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}
+//下载图标
+.sys-icon-load {
+  & {
+    background: url("../images/load.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+  &:hover {
+    background: url("../images/load-hover.png") no-repeat center center;
+    background-size: 100% 100%;
+  }
+}

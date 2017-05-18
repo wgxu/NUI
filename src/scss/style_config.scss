@@ -1,0 +1,44 @@
+/**
+ * scss配置文件
+    i.    配置屏幕适配
+    ii.   业务皮肤配置
+ */
+
+/**
+  屏幕适配分辨率
+ */
+$psdWidth: 1920;
+$tartgetWidth: 1200;
+$minPageWidth: 1100px;
+
+/**
+ * 系统默认字体设置
+ */
+$sysFontFamily : 'Microsoft Yahei';
+$sysFontSizeCont1: 13px;   //原16px;
+$sysFontSizeCont2: 14px;   //原18px;
+$sysFontColor: #787979;    //系统默认字体
+$fontLineHeiht: 1.5;       //默认行高
+
+/**
+ *  table默认设置
+ */
+$tableColor: #666;
+$tableBorderColor: #ddd;
+$tableCellHeight: 40px;
+$tableHeadBg: #e6e7f0;
+
+/**
+ * input输入框默认设置
+ */
+$inputBorderColor: #d9d9d9;
+$inputHeight: 32px;
+$inputLineHeight: 32px;
+$inputPadding: 0 5px;
+
+/**
+  dialog弹出框背景颜色
+ */
+
+
+

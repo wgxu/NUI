@@ -1,0 +1,137 @@
+/*
+  table表格样式
+*/
+//列表表格样式
+.sys-table-list {
+  & {
+    width: 100%;
+  }
+  th,td {
+    border: 1px solid $tableBorderColor;
+    height: $tableCellHeight;
+    line-height: $tableCellHeight;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  td {
+    text-indent: 10px;
+  }
+  td.center,
+  th.center{
+    text-indent: 0;
+    text-align: center;
+  }
+  th {
+    font-weight: inherit;
+    background: $tableHeadBg;
+  }
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 2px;
+  }
+}
+.sys-page {
+  & {
+    float: right;
+    margin: 20px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dddddd;
+    border-left: none;
+    color: #999999;
+    &:hover {
+      color: #5d6acb;
+      background: #f1f2f7;
+    }
+    &.active {
+      background: #5d6acb;
+      color: #fff;
+    }
+  }
+  .pre {
+    & {
+      width: 35px;
+      height: 30px;
+      border-radius: 5px 0 0 5px;
+      border: 1px solid #dddddd;
+      background: url(../images/left-arrow-no.png) no-repeat center;
+    }
+    &:hover {
+      background: url(../images/left-arrow-sel.png) no-repeat center;
+    }
+  }
+  .next{
+    & {
+      width: 35px;
+      height: 30px;
+      border-radius:0 5px 5px 0;
+      border: 1px solid #dddddd;
+      background: url(../images/right-arrow-no.png) no-repeat center;
+    }
+    &:hover{
+      background: url(../images/right-arrow-sel.png) no-repeat center;
+    }
+  }
+}
+
+//表格详情
+.sys-table-dept {
+  & {
+    padding: 20px 15px;
+  }
+  &>h5 {
+    position: relative;
+    padding-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  &>h5:after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 22px;
+    background: #4d5dd5;
+    top: 9px;
+    left: 10px;
+  }
+  table {
+    & {
+      width: 100%;
+      border-top:1px solid #ddd;
+      border-right:1px solid #ddd;
+    }
+    &.sys-table-center td{
+      padding-left: 0;
+    }
+    & td {
+      padding-left: 30px;
+      line-height: 40px;
+      height: 40px;
+      color: #787979;
+      text-align: center;
+      border-left: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+    }
+    & td.attribute {
+      padding-left: 0;
+      color: #2b2b2b;
+      background-color: #eff0f5;
+    }
+  }
+}

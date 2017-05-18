@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>dialog测试</title>
+    <link rel="stylesheet" href="../comm/css/hb.css">
+    <script src="../../lib/angular.min.js"></script>
+    <script src="../app.js"></script>
+    <script src="../../directive/dialog/dialog.js"></script>
+</head>
+<body ng-controller="myCtrl">
+    <dialog dialog-data="data"></dialog>
+</body>
+<script>
+    angular.module("app",['hb.dialog']).controller('myCtrl',function ($scope) {
+        $scope.data = {
+            isShow: true,
+            template: {
+                url: 'demo.html',
+                renderData: function (events) {
+                    events.content = 'hello world';
+                }
+            },
+            buttons: {
+                key: 'name',
+                list: [{
+                    name: '确定',
+                    value: 'yes'
+                },{
+                    name: '取消',
+                    value: 'cancel'
+                }],
+                callback: function (index, item) {
+                    debugger;
+                }
+            }
+        };
+    });
+</script>
+</html>

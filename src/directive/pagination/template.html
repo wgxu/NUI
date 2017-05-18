@@ -1,0 +1,5 @@
+<div class="sys-page">
+    <a href="javascript:;" class="pre" title="上一页" ng-click="prevPage()"></a>
+    <a href="javascript:;" class="{{ item == conf.currentPage ? 'active' : ''}}" ng-repeat="item in pageList track by $index" ng-click="jump(item)">{{item}}</a>
+    <a href="javascript:;" class="next" title="下一页" ng-click="nextPage()"></a>
+</div>

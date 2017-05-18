@@ -1,0 +1,86 @@
+/**
+ * input输入框设置
+ */
+@import "../extend/_%";
+@import "../extend/_fun";
+@import "../extend/_mixin";
+@import "../style_config";
+
+//输入框
+input[type='text'] {
+ & {
+   padding: $inputPadding;
+   height: $inputHeight;
+   line-height: $inputLineHeight;
+   border: 1px solid $inputBorderColor;
+   border-radius: 5px;
+ }
+  &:focus {
+    border: 1px solid #5d6acb;
+  }
+}
+/**
+  表单类样式定义:
+    1.输入框: sys-label
+    2.下拉框: sys-iput
+    3.展示框: sys-select
+    4.以及时间控件: sys-datetime
+ */
+.sys-label,
+.sys-input,
+.sys-select,
+.sys-datetime {
+  label {
+    padding-right: 5px;
+    float: left;
+    width: 105px;
+    text-align:right;
+    height: 32px;
+    line-height:32px;
+  }
+  &>div {
+    margin-left: 110px;
+  }
+  &>div>input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.sys-label {
+  &>div>span {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.sys-select {
+  select {
+    padding: 6px 0;
+    width: 100%;
+    border: 1px solid $inputBorderColor;
+    border-radius: 5px;
+  }
+}
+.sys-datetime {
+  &>div{
+    position: relative;
+  }
+  &>div:after {
+    position: absolute;
+    content: '';
+    width:2%;
+    background: #ccc;
+    height:1px;
+    top: 15px;
+    left: 49%;
+  }
+  &>div>input {
+    width: 48%;
+  }
+  &>div>input.startTime {
+    float: left;
+  }
+  &>div>input.endTime {
+    float: right;
+  }
+}

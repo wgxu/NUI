@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户信息管理</title>
+    <link rel="stylesheet" href="../comm/css/hb.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wrap bg-white">
+        <div class="row">
+            <div class="block-3 sys-input">
+                <label>手机号：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-input">
+                <label>昵称：</label>
+                <div>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="block-3 sys-select">
+                <label>状态：</label>
+                <div>
+                    <select>
+                        <option value="">请选择</option>
+                        <option value="">停用</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block-3 sys-select">
+                <label>实名认证：</label>
+                <div>
+                    <select>
+                        <option value="">请选择</option>
+                        <option value="">认证</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-6 sys-datetime">
+                <label>注册时间：</label>
+                <div>
+                    <input type="text" class="startTime">
+                    <input type="text" class="endTime">
+                </div>
+            </div>
+            <div class="block-6 search">
+                <a href="javascript:;" class="sys-btn sys-btn-export">导出</a>
+                <a href="javascript:;" class="sys-btn sys-btn-enable">启动</a>
+                <a href="javascript:;" class="sys-btn sys-btn-stop">停用</a>
+                <a href="javascript:;" class="sys-btn sys-btn-search">查询</a>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <table class="sys-table">
+                <tr class="noHover">
+                    <th width="3%" class="center"><input type="checkbox"></th>
+                    <th width="15%">卡/证</th>
+                    <th width="12%">手机号</th>
+                    <th width="13%">昵称</th>
+                    <th width="8%">实名认证</th>
+                    <th width="10%">平安币</th>
+                    <th width="15%">注册时间</th>
+                    <th width="8%">是否启用</th>
+                    <th>操作</th>
+                </tr>
+                <tr class="noHover">
+                    <td><input type="checkbox"></td>
+                    <td>02147</td>
+                    <td>15155518162</td>
+                    <td>小徐</td>
+                    <td>未认证</td>
+                    <td>121</td>
+                    <td>2016/02/12</td>
+                    <td>启用</td>
+                    <td>操作</td>
+                </tr>
+            </table>
+            <div class="sys-page">
+                <a href="javascript:;" class="pre" title="上一页"></a>
+                <a href="javascript:;" class="active">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;">4</a>
+                <a href="javascript:;">5</a>
+                <a href="javascript:;">…</a>
+                <a href="javascript:;" class="next" title="下一页"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
